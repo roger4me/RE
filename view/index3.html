@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="Index3">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/bootstrap-3.0.0/css/bootstrap.css">
+    <script src="../framework/angular-1.3.0.14/angular.js"></script>
+    <script src="../js/Index3.js"></script>
+    <style type="text/css">
+        div[contentEditable] {
+            cursor: pointer;
+            background-color: #D0DD0D
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div contentEditable="true" ng-model="content" title="Click to edit">Some</div>
+        <pre>model={{content}}</pre>
+    </div>
+</body>
+
+</html>
